@@ -1,4 +1,7 @@
+
 # 100 days of fastai
+![fastai Book cover](images/fastai-book-cover.jpg "fastai Book Cover")
+
 my notes as i dig into fastai
 
 day 1 - my book has arrived, so let the journey begin
