@@ -10,21 +10,22 @@ authors Jeremy Howard & Sylvian Gugger
 O'Reilly
 
 
-initial setup
+## initial setup
 
-the book says to go to book.fast.ai
-
-then im directed to https://github.com/fastai/fastbook
+the book says to go to [Fast AI Book Home](https://book.fast.ai), then im directed to the book's [repo](https://github.com/fastai/fastbook)
 
 so form there i download the code and put it in 
 
-my-coding\fastai\fastbook-master
+`my-coding\fastai\fastbook-master`
 
 i may want to keep my notebooks in a seperate folder
 
-my-coding\fastai\fastbook-mycode
+`my-coding\fastai\fastbook-mycode`
 
 
+## resources
+[Fast AI Book Home](https://book.fast.ai "Fast AI Book Home")
 
+[Fast AI Book Repo](https://github.com/fastai/fastbook "Fast AI Book Repo")
 
 
