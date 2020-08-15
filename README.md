@@ -1,9 +1,9 @@
-# fastai.100days
+# 100 days of fastai
 my notes as i dig into fastai
 
 day 1 - my book has arrived, so let the journey begin
 
-"Deep Learning for Coders with fstai & PyTorch, AI Applications without a PhD"
+"Deep Learning for Coders with fastai & PyTorch, AI Applications without a PhD"
 
 authors Jeremy Howard & Sylvian Gugger
 
@@ -12,7 +12,7 @@ O'Reilly
 
 ## initial setup
 
-the book says to go to [Fast AI Book Home](https://book.fast.ai), then im directed to the book's [repo](https://github.com/fastai/fastbook)
+the book says to go to [fastai Book Home](https://book.fast.ai), then im directed to the book's [repo](https://github.com/fastai/fastbook)
 
 so form there i download the code and put it in 
 
@@ -24,8 +24,9 @@ i may want to keep my notebooks in a seperate folder
 
 
 ## resources
-[Fast AI Book Home](https://book.fast.ai "Fast AI Book Home")
+[fastai Book Home](https://book.fast.ai "fastai Book Home")
 
-[Fast AI Book Repo](https://github.com/fastai/fastbook "Fast AI Book Repo")
+[fastai Book Repo](https://github.com/fastai/fastbook "fastai Book Repo")
 
+[fastai Docs](https://docs.fast.ai/ "fastai Docs")
 
