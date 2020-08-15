@@ -1,35 +1,29 @@
 
 # 100 days of fastai
-![fastai Book cover](images/fastai-book-cover.jpg "fastai Book Cover")
+![fastai Book cover](images/fastai-book-cover.jpg "Deep Learning for Coders with fastai & PyTorch, AI Applications without a PhD, Book Cover")
 
 my notes as i dig into fastai
 
-day 1 - my book has arrived, so let the journey begin
-
-"Deep Learning for Coders with fastai & PyTorch, AI Applications without a PhD"
-
-authors Jeremy Howard & Sylvian Gugger
-
-O'Reilly
-
-
-## initial setup
-
-the book says to go to [fastai Book Home](https://book.fast.ai), then im directed to the book's [repo](https://github.com/fastai/fastbook)
-
-so form there i download the code and put it in 
-
-`my-coding\fastai\fastbook-master`
-
-i may want to keep my notebooks in a seperate folder
-
-`my-coding\fastai\fastbook-mycode`
-
+my game plan is to spend about an hour a day with fastai using the book and online resources to get a deep understanding of fastai
 
 ## resources
-[fastai Book Home](https://book.fast.ai "fastai Book Home")
+[fastai book home](https://book.fast.ai "fastai book home")
 
-[fastai Book Repo](https://github.com/fastai/fastbook "fastai Book Repo")
+[fastai book repo](https://github.com/fastai/fastbook "fastai book repo")
 
-[fastai Docs](https://docs.fast.ai/ "fastai Docs")
+[fastai docs](https://docs.fast.ai/ "fastai docs")
+
+[my fastai.100days repo](https://github.com/philipwalsh/fastai.100days "my fastai.100days repo")
+
+## daily notes
+### day 1 - initial setup
+
+book files downloaded and unzipped from gituhb repo
+
+`my-coding\fastbook-master`
+
+my fastai [repo](https://github.com/philipwalsh/fastai.100days "my fastai.100days repo") created
+
+`my-coding\fastai.100days`
+
 
