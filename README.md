@@ -27,3 +27,22 @@ my fastai [repo](https://github.com/philipwalsh/fastai.100days "my fastai.100day
 `my-coding\fastai.100days`
 
 
+installing wsl 2.0 and cuda
+
+i am following this youtube video
+
+https://www.youtube.com/watch?v=0iNHHSS81Xc
+
+nvidia install here
+
+https://docs.nvidia.com/cuda/wsl-user-guide/index.html#running-cuda
+
+
+cuda samples here
+
+https://github.com/NVIDIA/cuda-samples
+
+a better pcommand prompt
+
+https://github.com/mintty/wsltty/releases
+
