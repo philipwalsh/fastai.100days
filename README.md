@@ -46,3 +46,9 @@ a better pcommand prompt
 
 https://github.com/mintty/wsltty/releases
 
+
+
+### day 2
+
+now i am inprocess updating wsl 1 to wsl 2
+can't get it to install, yet.  
