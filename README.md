@@ -57,6 +57,19 @@ can't get it to install, yet.
 ### day 3
 the frustration continues
 
+
+
+[
+
+    side note: from "DL for Coders with fastai & Pytorch", page 14, "setting up a computer takes time and energy... we suggest you rent access to computer ..."
+    so sure, the book warned me not to go through this computer install but thats ok.  I call this a valuable learning experience and if i can get the jupyter notebook experience up and running on my nvidia card then more the better as far as i am concerned.  I can always copy the notebooks up to google colab at a later date if needed.    
+    The windoes linux subsystem looks really cool and can get me linux on the destop with gpu support so sounds like a win/win.
+
+]
+
+
+
+
 I believe I have the proper version of wsl installed finally but i am receiving error
 
 `WslRegisterDistribution failed with error: 0x800706be`
@@ -100,6 +113,79 @@ Now i can get into the bin folder and verify the install
 `cd bin`
 
 `./deviceQuery`
+
+
+and i am very happy, the sample runs
+
+first card found
+
+`Device 0: "GeForce RTX 2080"`
+
+`  CUDA Driver Version / Runtime Version          11.1 / 11.0`
+
+`  CUDA Capability Major/Minor version number:    7.5`
+
+`  Total amount of global memory:                 8192 MBytes (8589934592 bytes)...`
+
+...
+
+second card found
+
+`Device 1: "GeForce GTX 970"`
+
+`  CUDA Driver Version / Runtime Version          11.1 / 11.0`
+
+`  CUDA Capability Major/Minor version number:    5.2`
+
+`  Total amount of global memory:                 4096 MBytes (4294967296 bytes)`
+
+WSL 20 now has access to my GPU
+
+one more test to check my gpu performance
+
+`./matrixMul`
+
+`[Matrix Multiply Using CUDA] - Starting...`
+
+`GPU Device 0: "Turing" with compute capability 7.5`
+
+`MatrixA(320,320), MatrixB(640,320)`
+
+`Computing result using CUDA Kernel...`
+
+`done`
+
+`Performance= 946.94 GFlop/s, Time= 0.138 msec, Size= 131072000 Ops, WorkgroupSize= 1024 threads/block`
+
+`Checking computed result for correctness: Result = PASS`
+
+964 GFlop/s
+
+now we can treat the wsl as a remote pc, spin a server in the wsl ubuntu and then from windows use that server
+
+get your linux ip address
+
+`ip addr`
+
+setting up my anaconda, with a little help from 
+
+https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart
+
+
+
+I think i have evrything installed, fire up the notebook
+
+within ubuntu, spin up the jupyter notebook environment
+
+`jupyter notebook --no-browser --ip=0.0.0.0 --port=8000`
+
+now from windows i can connect my browser to that ip and port and away i go
+
+127.0.0.1:8000, supply the token and done
+
+Page 16 - running first notebook worked fine.  
+
+
 
 
 
