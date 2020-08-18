@@ -173,9 +173,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubun
 
 
 
-I think i have evrything installed, fire up the notebook
+I think i have evrything installed.
 
-within ubuntu, spin up the jupyter notebook environment
+time to spin up the jupyter notebook environment
 
 `jupyter notebook --no-browser --ip=0.0.0.0 --port=8000`
 
@@ -186,7 +186,31 @@ now from windows i can connect my browser to that ip and port and away i go
 Page 16 - running first notebook worked fine.  
 
 
+so after all of that what do I have.
+
+- Windows dev environment
+- Ubuntu on WSL
+- fastai training models with GPU
+- no need to rent cloud based GPU environment for training
+
+pretty slick if you ask me
+
+![fastai on WSL](images/fastai-on-wsl.jpg "Window Performance Monito showing GPU utilization whil running fastai on Windows Linux Subsystem")
+
+of course there may come a day when i want to use google colab for my training, thats fine.  For now I will keep the training local.
 
 
 
+
+### day 4
+
+Page 16-20
+
+the book explains some jupyter notebook basics.  then the book jumps into a quick cat dog classifier.  in a few lines of code we are uploading and identifying our own cat dog images.  really neat.
+
+the fastai library has built in image styes.  the book uses the cat/dog set and then a pre trained model, resnet34 in this case, to build the image classifer in about 6 lines of code.
+
+i was curious to see if i had actually connected all the dots regarding the fastai library utilizing my gpu, here is the proof.
+
+![windows perfmon](images/gpu-perf-mon.jpg "Window Performance Monito showing GPU utilization whil running fastai on Windows Linux Subsystem")
 
