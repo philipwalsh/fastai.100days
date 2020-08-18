@@ -195,7 +195,7 @@ so after all of that what do I have.
 
 pretty slick if you ask me
 
-![fastai on WSL](images/fastai-on-wsl.jpg "Window Performance Monito showing GPU utilization whil running fastai on Windows Linux Subsystem")
+![fastai on WSL](images/fastai-on-wsl.JPG "Window Performance Monito showing GPU utilization whil running fastai on Windows Linux Subsystem")
 
 of course there may come a day when i want to use google colab for my training, thats fine.  For now I will keep the training local.
 
@@ -212,5 +212,5 @@ the fastai library has built in image styes.  the book uses the cat/dog set and 
 
 i was curious to see if i had actually connected all the dots regarding the fastai library utilizing my gpu, here is the proof.
 
-![windows perfmon](images/gpu-perf-mon.jpg "Window Performance Monito showing GPU utilization whil running fastai on Windows Linux Subsystem")
+![windows perfmon](images/gpu-perf-mon.JPG "Window Performance Monito showing GPU utilization whil running fastai on Windows Linux Subsystem")
 
