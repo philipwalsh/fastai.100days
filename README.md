@@ -50,8 +50,9 @@ https://github.com/mintty/wsltty/releases
 
 ### day 2
 
-now i am inprocess updating wsl 1 to wsl 2
-can't get it to install, yet.  
+today I am attempting to update WSL 1 to WSL 2
+
+things always appear easy at first, then you get down into the weeds.
 
 
 ### day 3
@@ -59,15 +60,14 @@ the frustration continues
 
 
 
-[
 
-    side note: from "DL for Coders with fastai & Pytorch", page 14, "setting up a computer takes time and energy... we suggest you rent access to computer ..."
-    so sure, the book warned me not to go through this computer install but thats ok.  I call this a valuable learning experience and if i can get the jupyter notebook experience up and running on my nvidia card then more the better as far as i am concerned.  I can always copy the notebooks up to google colab at a later date if needed.    
-    The windoes linux subsystem looks really cool and can get me linux on the destop with gpu support so sounds like a win/win.
+side note
 
-]
+from "DL for Coders with fastai & Pytorch", page 14, "setting up a computer takes time and energy... we suggest you rent access to computer ..."
 
+so sure, the book warned me not to go through this computer install but thats ok.  I call this a valuable learning experience and if i can get the jupyter notebook experience up and running on my nvidia card then I have the option to work local
 
+I can always move my dev to the cloud based training environments in the future
 
 
 I believe I have the proper version of wsl installed finally but i am receiving error
@@ -90,9 +90,9 @@ after a few searches across the interwebs i was told that i should restart the s
 
 I believe the last line that cleans the image was the one that go me back on track
 
-Time to log into the wsl ubuntu image to complete the cuda installation there
+Time to log into the WSL ubuntu image to complete the cuda installation there
 
-Based on recommendation from the youtube tutorail, i am us\ing wsltty to complete the cuda install
+Based on recommendation from the youtube video, i am using wsltty to complete the cuda install
 
 I follow all of the steps that nvidia has on their install page
 
@@ -104,7 +104,7 @@ all that is left is to test a sample to verify cuda driver install
 
 wait for the process to make all the samples.  this takes a few minutes to complete on my system
 
-Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz   4.00 GHz
+`Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz   4.00 GHz`
 
 
 Now i can get into the bin folder and verify the install
@@ -139,9 +139,9 @@ second card found
 
 `  Total amount of global memory:                 4096 MBytes (4294967296 bytes)`
 
-WSL 20 now has access to my GPU
+WSL 2 now has access to my GPU
 
-one more test to check my gpu performance
+one more test to check my GPU performance
 
 `./matrixMul`
 
@@ -159,29 +159,29 @@ one more test to check my gpu performance
 
 `Checking computed result for correctness: Result = PASS`
 
-964 GFlop/s
+964 GFlop/s, sounds ok to me
 
-now we can treat the wsl as a remote pc, spin a server in the wsl ubuntu and then from windows use that server
+now I can treat the WSL as a remote machine, spin up a service in the WSL Ubuntu and then from windows use that server
 
-get your linux ip address
 
-`ip addr`
-
-setting up my anaconda, with a little help from 
+setting up my Ubuntu anaconda, with a little help from 
 
 https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart
 
 
 
-I think i have evrything installed.
+I think i have everything installed.
 
-time to spin up the jupyter notebook environment
+time to spin up the jupyter notebook environment, form Ubuntu
 
 `jupyter notebook --no-browser --ip=0.0.0.0 --port=8000`
 
 now from windows i can connect my browser to that ip and port and away i go
 
-127.0.0.1:8000, supply the token and done
+`http://127.0.0.1:8000/?token=...`
+
+, supply the token and done
+
 
 Page 16 - running first notebook worked fine.  
 
