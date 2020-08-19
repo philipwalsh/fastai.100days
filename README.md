@@ -42,7 +42,7 @@ cuda samples here
 
 https://github.com/NVIDIA/cuda-samples
 
-a better pcommand prompt
+a better command prompt
 
 https://github.com/mintty/wsltty/releases
 
