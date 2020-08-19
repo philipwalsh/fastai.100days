@@ -117,49 +117,15 @@ Now i can get into the bin folder and verify the install
 
 and i am very happy, the sample runs
 
-first card found
+![cuda sample sees the gpu](images/cuda-sample-deviceQuery.JPG "cuda sample sees the gpu")
 
-`Device 0: "GeForce RTX 2080"`
-
-`  CUDA Driver Version / Runtime Version          11.1 / 11.0`
-
-`  CUDA Capability Major/Minor version number:    7.5`
-
-`  Total amount of global memory:                 8192 MBytes (8589934592 bytes)...`
-
-...
-
-second card found
-
-`Device 1: "GeForce GTX 970"`
-
-`  CUDA Driver Version / Runtime Version          11.1 / 11.0`
-
-`  CUDA Capability Major/Minor version number:    5.2`
-
-`  Total amount of global memory:                 4096 MBytes (4294967296 bytes)`
 
 WSL 2 now has access to my GPU
 
 one more test to check my GPU performance
+![cuda sample sees the gpu](images/cuda-sample-matrixMul.JPG "cuda sample sees the gpu")
 
-`./matrixMul`
 
-`[Matrix Multiply Using CUDA] - Starting...`
-
-`GPU Device 0: "Turing" with compute capability 7.5`
-
-`MatrixA(320,320), MatrixB(640,320)`
-
-`Computing result using CUDA Kernel...`
-
-`done`
-
-`Performance= 946.94 GFlop/s, Time= 0.138 msec, Size= 131072000 Ops, WorkgroupSize= 1024 threads/block`
-
-`Checking computed result for correctness: Result = PASS`
-
-964 GFlop/s, sounds ok to me
 
 now I can treat the WSL as a remote machine, spin up a service in the WSL Ubuntu and then from windows use that server
 
@@ -214,3 +180,32 @@ i was curious to see if i had actually connected all the dots regarding the fast
 
 ![windows perfmon](images/gpu-perf-mon.JPG "Window Performance Monito showing GPU utilization whil running fastai on Windows Linux Subsystem")
 
+### day 5
+
+Page 20-23
+some background on ML beginnings.  
+
+
+[Arthur Samuel](https://en.wikipedia.org/wiki/Arthur_Samuel "Arthur Samuel")
+
+
+in theory a neural network can solve any problem to any level of accuracy, see
+
+[universal approximation theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem "universal approximation theorem")
+
+the weights of the model can be updated automatically see
+
+[stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent "stochastic gradient descent")
+
+Page 26
+The author(s) talk about bias.  hugely popular topic these days.
+
+they discuss positive feedback loop bias, classic example
+
+police look at arrest locations to decide where to focus their energy
+
+then more arrests at those locations
+
+that data is fed back into the model
+
+does that mean there is more crime in that, no, just more people being arrested there than else where.  model has bias.
