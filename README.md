@@ -216,3 +216,13 @@ does that mean there is more crime in that, no, just more people being arrested 
 I like how the authors start from the high level and work down into weeds later.  Chapter 1 introduces building transfer learning models and fine tuning immediately without having to program our own perceptrons or learn statistics/calculus/etc.. as a pre requisite.
 
 of course the math is what drives everything but for me, I am not interested in writing my own ML algos, I am more interested in using the tools to solve the business problems.
+
+
+### day 7
+
+installed a few more requirements.  i think i have them all.  about half installed through conda install, the rest had to be done with pip install
+
+ran through some , jupyter notebooks created.
+
+answered all of the questions at the end of the chapter
+
