@@ -226,3 +226,12 @@ ran through some , jupyter notebooks created.
 
 answered all of the questions at the end of the chapter
 
+### day 8
+ran a few more examples from chapter 1
+
+easily got the transfer learner for image segmentation running
+
+when i tried the sentiment alaysis model i kept getting cuda out of memory so i re worked the code to do a fit_one_cycle instead and that got me past the cuda memory issue
+
+I also learned that when my GPU is pulling extra power for ml tasks, if my dehumidifier turns on i have to reset my circuit breaker.
+
