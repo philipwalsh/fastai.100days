@@ -235,3 +235,10 @@ when i tried the sentiment alaysis model i kept getting cuda out of memory so i 
 
 I also learned that when my GPU is pulling extra power for ml tasks, if my dehumidifier turns on i have to reset my circuit breaker.
 
+### day 9
+
+worked through last few examples of chapter 1
+
+a little house cleaning on file names
+
+reached page 70, chapter 2, will start working on the bear recognizer next
