@@ -244,10 +244,24 @@ a little house cleaning on file names
 reached page 70, chapter 2, will start working on the bear recognizer next
 
 ### day 10
-one of the tasks the bear recognizer has us doing is getting a bing api key
+building the bear recognizer
 
-easy enough, ihave the key, they actually gave me 2 , 7 day keys.
+the book explains how easy it is to get search results from bing, once you get your api key
 
-but now i need to add the keys to my environment and win 10 is acting funny, so a reboou will hopefully resolve this.
+i tried to install the key into my user environment variable, but for whatever reason python was very stubborn in not reading those variables.  
 
-and yes, a reboot did indeed fix the issue.
+i switched to using python-decouple and the config module within that package
+
+no i have a .env file saved locally with my api key and it is excluded from source control via the .gitignore
+
+note: i have also excluded the bear pictures from my repo, didnt feel the need to save them.  i can always re run the ocde to get them again in the future if needed.
+
+remebember to keep your secrets ( keys, passwords, etc...) secret.
+
+I have the fundamental stuff in place
+
+- bing api key created
+- api key saved to the .env
+- bing search results ran and saved local
+
+TODO: page 70 start building the model
