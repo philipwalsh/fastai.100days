@@ -1,3 +1,7 @@
+# my specific files that I dont want in source control
+
+bears/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

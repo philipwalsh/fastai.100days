@@ -242,3 +242,12 @@ worked through last few examples of chapter 1
 a little house cleaning on file names
 
 reached page 70, chapter 2, will start working on the bear recognizer next
+
+### day 10
+one of the tasks the bear recognizer has us doing is getting a bing api key
+
+easy enough, ihave the key, they actually gave me 2 , 7 day keys.
+
+but now i need to add the keys to my environment and win 10 is acting funny, so a reboou will hopefully resolve this.
+
+and yes, a reboot did indeed fix the issue.
