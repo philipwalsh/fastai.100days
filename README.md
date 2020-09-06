@@ -261,7 +261,7 @@ I took a closer look at the envieonment variables that were available to me it w
 
 as a workaround, I switched to using python-decouple and the config module within that package
 
-now i a, using a .env file saved locally with my api key and it is excluded from source control via the .gitignore
+now i am using a .env file saved locally with my api key and it is excluded from source control via the .gitignore
 
 ![.env file in vs code](images/env_in_vs_code.JPG ".env file in vs code")
 
