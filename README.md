@@ -248,20 +248,37 @@ building the bear recognizer
 
 the book explains how easy it is to get search results from bing, once you get your api key
 
-i tried to install the key into my user environment variable, but for whatever reason python was very stubborn in not reading those variables.  
+i tried to install the key into my Windows environment variables, 
 
-i switched to using python-decouple and the config module within that package
+![environment variables](images/environ_vars.JPG "Win 10 User Environment Variables")
 
-no i have a .env file saved locally with my api key and it is excluded from source control via the .gitignore
 
-note: i have also excluded the bear pictures from my repo, didnt feel the need to save them.  i can always re run the ocde to get them again in the future if needed.
+but for whatever reason python was very stubborn in not reading those variables.  
 
-remebember to keep your secrets ( keys, passwords, etc...) secret.
+![key error](images/KeyError.JPG "Key Error")
+
+I took a closer look at the envieonment variables that were available to me it was a few windows well known ones and bunch of conda bs, so it has something to do with the way my conda environment is interacting with windows.
+
+as a workaround, I switched to using python-decouple and the config module within that package
+
+now i a, using a .env file saved locally with my api key and it is excluded from source control via the .gitignore
+
+![.env file in vs code](images/env_in_vs_code.JPG ".env file in vs code")
+
+note: i have also excluded the bear pictures from my repo, didnt feel the need to save them.  i can always re run the code to get them again in the future if needed.
+
+remember to keep your secrets ( keys, passwords, etc...) secret.
 
 I have the fundamental stuff in place
 
 - bing api key created
 - api key saved to the .env
-- bing search results ran and saved local
+- bing search results saved local
+
+the code on page 67 to find failed images and delete them worked really well.  I had 24 images failed and this was very easy to cleanup with a couple lines of code.
+
+also, as a slight twist, i decided to modify the bear selection.  instead of identifying [grizzly, black, teddy] I am going for [grizzly, panda, teddy]
+
 
 TODO: page 70 start building the model
+
