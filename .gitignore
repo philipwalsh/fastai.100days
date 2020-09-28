@@ -1,6 +1,7 @@
 # my specific files that I dont want in source control
 
 bears/
+notebooks/images
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
