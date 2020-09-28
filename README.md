@@ -280,5 +280,10 @@ the code on page 67 to find failed images and delete them worked really well.  I
 also, as a slight twist, i decided to modify the bear selection.  instead of identifying [grizzly, black, teddy] I am going for [grizzly, panda, teddy]
 
 
-TODO: page 70 start building the model
+## day 11
+i took a little break on the fastai book.  Too busy working and playing.  Trying to make the most of the summer before the great New England weather is gone.
+
+today i got my first look at building an application using python widgets and voila, need to clean up my notebook, its all over the place.
+
+
 
